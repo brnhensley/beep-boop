@@ -11,7 +11,7 @@ h1  {
 
 button {
   margin-top: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 body {
@@ -24,12 +24,24 @@ form {
   font-size: 20px
 }
 
+.col-md-6 {
+  border-radius: 5px;
+  border: solid black;
+  margin: 5px:
+}
+
 #output {
   text-align: justify;
   font-size: 15px
 }
 
 #satan {
+  display: none;
+  font-size: 150px;
+  color: crimson;
+}
+
+#reverseSatan {
   display: none;
   font-size: 150px;
   color: crimson;

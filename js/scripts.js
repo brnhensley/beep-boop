@@ -33,7 +33,7 @@ function boopReverse(inputNumberString) {
   console.log(typeof userNumber);
   console.log(typeof inputNumberString);
   if (userNumber === 666) {
-    $("#satan").show();
+    $("#reverseSatan").show();
   }
   for (var i = 0; i <= userNumber; i++) {
     if (i === 666) {

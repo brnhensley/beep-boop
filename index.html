@@ -10,26 +10,34 @@
   <body>
     <div class="container">
       <h1>Beep Boop</h1>
-      <!-- Normal form -->
-      <form id="beepboop">
-        <div class="form-group">
-          <label for="inputNumber">Enter a number in the box and to Boop-ify it</label><br>
-          <input id="inputNumber" type="number" min="1" max="10000" placeholder="Enter a number here">
-        </div>
-        <button type="submit" name="btn">Boop-it!</button >
-      </form>
+      <div class="row">
 
-      <!-- backwards form -->
-      <form id="reverse">
-        <div class="form-group">
-          <label for="inputReverseNumber">Enter a number in the box and to Boop-ify it</label><br>
-          <input id="inputReverseNumber" type="number" min="1" max="10000" placeholder="ereh rebmun a retnE">
+      <!-- Normal form -->
+        <div class="col-md-6">
+          <form id="beepboop">
+            <div class="form-group">
+              <label for="inputNumber">Enter a number in the box and to Boop-ify it</label><br>
+              <input id="inputNumber" type="number" min="1" max="10000" placeholder="Enter a number here">
+            </div>
+            <button type="submit" name="btn">Boop-it!</button >
+          </form>
         </div>
-        <button type="submit" name="btn">!ti-pooB</button >
-      </form>
+
+      <!-- Reverse form -->
+        <div class="col-md-6">
+          <form id="reverse">
+            <div class="form-group">
+              <label for="inputReverseNumber">ti yfi-pooB ot dna xob eht ni rebmun a retnE</label><br>
+              <input id="inputReverseNumber" type="number" min="1" max="10000" placeholder="ereh rebmun a retnE">
+            </div>
+            <button type="submit" name="btn">!ti-pooB</button >
+          </form>
+        </div>
+      </div>
 
       <!-- This is the result section -->
       <p id="satan"><strong>HAIL SATAN!</strong></p>
+      <p id="reverseSatan"><strong>!NATAS LIAH</strong></p>
       <p id="output"></p>
     </div>
   </body>
