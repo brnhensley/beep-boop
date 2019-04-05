@@ -25,5 +25,6 @@ function boopNumber(userInput) {
       var userInput = $("#inputNumber").val();
       var output = boopNumber(userInput);
       $("#output").text(output);
+      console.log(output)
     })
   })

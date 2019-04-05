@@ -4,7 +4,16 @@ input {
 
 h1  {
   text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
+
+button {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
 body {
   background-color: #98ff98;
+  text-align: center;
 }
