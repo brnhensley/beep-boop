@@ -22,3 +22,7 @@ strong {
   font-size: 25px;
   color: crimson;
 }
+
+#output {
+  text-align: justify;
+}
