@@ -8,6 +8,10 @@ function boopNumber(inputNumberString) {
   console.log(typeof inputNumberString)
   if (userNumber === 666) {
     $("#satan").show()
+    function play(){
+      var audio = document.getElementById("audio");
+      audio.play();
+      }
   }
   for (var i = 0; i <= userNumber; i++) {
     if (i === 666) {
