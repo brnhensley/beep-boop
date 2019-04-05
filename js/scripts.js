@@ -23,7 +23,7 @@ function boopNumber(inputNumberString) {
 }
 
   //  User Logic
-  
+
 $(function() {
   $("form").submit(function(event) {
     event.preventDefault();
