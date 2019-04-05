@@ -15,7 +15,7 @@ button {
 }
 
 body {
-  background-color: #98ff98;
+  background-color: skyblue;
   text-align: center;
   font-family: sans-serif;
 }
@@ -32,17 +32,22 @@ form {
 
 #output {
   text-align: justify;
-  font-size: 15px
+  font-size: 20px
 }
 
-#satan {
+.satan {
   display: none;
   font-size: 150px;
   color: crimson;
 }
 
-#reverseSatan {
+.reverseSatan {
   display: none;
   font-size: 150px;
   color: crimson;
+}
+
+img {
+  width: 100%;
+  display: none;
 }

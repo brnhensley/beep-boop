@@ -7,7 +7,8 @@ function boopNumber(inputNumberString) {
   console.log(typeof userNumber);
   console.log(typeof inputNumberString);
   if (userNumber === 666) {
-    $("#satan").show();
+    $(".satan").show();
+    $("img").show();
   }
   for (var i = 0; i <= userNumber; i++) {
     if (i === 666) {
@@ -33,7 +34,8 @@ function boopReverse(inputNumberString) {
   console.log(typeof userNumber);
   console.log(typeof inputNumberString);
   if (userNumber === 666) {
-    $("#reverseSatan").show();
+    $(".reverseSatan").show();
+    $("img").show();
   }
   for (var i = 0; i <= userNumber; i++) {
     if (i === 666) {
@@ -56,7 +58,9 @@ function boopReverse(inputNumberString) {
 $(function() {
   $("form#beepboop").submit(function(event) {
     event.preventDefault();
-    $("#satan").hide();
+    $(".satan").hide();
+    $("reverseSatan").show();
+    $("img").hide();
     var inputNumberString = $("#inputNumber").val();
     var output = boopNumber(inputNumberString);
     $("#output").text(output);
@@ -66,7 +70,9 @@ $(function() {
 $(function() {
   $("form#reverse").submit(function(event) {
     event.preventDefault();
-    $("#satan").hide();
+    $(".satan").hide();
+    $("reverseSatan").show();
+    $("img").hide();
     var inputNumberString = $("#inputReverseNumber").val();
     console.log(inputNumberString);
     var output = boopReverse(inputNumberString);
