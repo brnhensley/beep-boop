@@ -11,6 +11,10 @@ function boopNumber(inputNumberString) {
       arrayNumbers.push(i + " Hail Satan! " + i + ", ");
     } else if (String(i).includes("3")){
       arrayNumbers.push("I'm sorry, Dave. I'm afraid I can't do that. ");
+    } else if (String(i).includes("2")){
+      arrayNumbers.push("Boop! ");
+    } else if (String(i).includes("1")){
+      arrayNumbers.push("Beep! ");
     } else {
       arrayNumbers.push(i + ", ");
     }
