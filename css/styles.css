@@ -17,3 +17,8 @@ body {
   background-color: #98ff98;
   text-align: center;
 }
+
+strong {
+  font-size: 25px;
+  color: crimson;
+}

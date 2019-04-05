@@ -2,13 +2,17 @@
 
 function boopNumber(userInput) {
   var userNumber = parseInt(userInput);
-  var arrayNumbers = []
+  var arrayNumbers = [];
 
   console.log(userInput);
   for (var i = 0; i <= userInput; i++) {
-    arrayNumbers.push(i + ", ")
+    if (i === 666) {
+      console.log(i);
+      arrayNumbers.push(i + " <strong>Hail Satan!</strong> " + i + ", ");
+    } else {
+      arrayNumbers.push(i + ", ");
+    }
   }
-
   return arrayNumbers.join("");
 }
 
@@ -30,10 +34,10 @@ function boopNumber(userInput) {
 $(function() {
   $("form").submit(function(event) {
     event.preventDefault();
-    console.log(userInput)
+    console.log(userInput);
     var userInput = $("#inputNumber").val();
     var output = boopNumber(userInput);
     $("#output").text(output);
-    console.log(output)
-  })
-})
+    // console.log(output);
+  });
+});
