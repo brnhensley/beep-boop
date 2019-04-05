@@ -34,6 +34,7 @@ function boopNumber(inputNumberString) {
 $(function() {
   $("form").submit(function(event) {
     event.preventDefault();
+    $("#satan").hide()
     var inputNumberString = $("#inputNumber").val();
     var output = boopNumber(inputNumberString);
     $("#output").text(output);

@@ -29,7 +29,7 @@ _No known bugs_
 |The program returns a range of numbers from 0 to the users inputted number|"5"|"0, 1, 2, 3, 4, 5,"|
 |Any output number containing a 3 will return "I'm sorry, Dave. I'm afraid I can't do that."|"3"|"0, 1, 2, I'm sorry, Dave. I'm afraid I can't do that."|
 |Any output number containing a 2 will return "Boop!"|"2"|"0, 1, Boop!"|
-|Any output number containing a 1 will return "Beep!"|"2"|"0, Beep!, 2"|
+|Any output number containing a 1 will return "Beep!"|"1"|"0, Beep!, 2"|
 
 ## Support and contact details
 
