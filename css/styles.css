@@ -1,5 +1,6 @@
 input {
   width: 200px;
+  font-size: 15px;
 }
 
 h1  {
@@ -30,4 +31,10 @@ strong {
 
 #output {
   text-align: justify;
+}
+
+#satan {
+  display: none;
+  font-size: 350px;
+  color: crimson;
 }
