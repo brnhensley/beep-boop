@@ -1,13 +1,13 @@
   //  Business Logic
 
-function boopNumber(userInput) {
-  var userNumber = parseInt(userInput);
+function boopNumber(inputNumberString) {
+  var userNumber = parseInt(inputNumberString);
   var arrayNumbers = [];
-
-  console.log(userInput);
-  for (var i = 0; i <= userInput; i++) {
+  console.log(userNumber);
+  console.log(typeof userNumber)
+  console.log(typeof inputNumberString)
+  for (var i = 0; i <= userNumber; i++) {
     if (i === 666) {
-      console.log(i);
       arrayNumbers.push(i + " Hail Satan! " + i + ", ");
     } else {
       arrayNumbers.push(i + ", ");
@@ -34,10 +34,8 @@ function boopNumber(userInput) {
 $(function() {
   $("form").submit(function(event) {
     event.preventDefault();
-    console.log(userInput);
-    var userInput = $("#inputNumber").val();
-    var output = boopNumber(userInput);
+    var inputNumberString = $("#inputNumber").val();
+    var output = boopNumber(inputNumberString);
     $("#output").text(output);
-    // console.log(output);
   });
 });
