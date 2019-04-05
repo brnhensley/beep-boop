@@ -8,7 +8,7 @@ function boopNumber(userInput) {
   for (var i = 0; i <= userInput; i++) {
     if (i === 666) {
       console.log(i);
-      arrayNumbers.push(i + " <strong>Hail Satan!</strong> " + i + ", ");
+      arrayNumbers.push(i + " Hail Satan! " + i + ", ");
     } else {
       arrayNumbers.push(i + ", ");
     }
