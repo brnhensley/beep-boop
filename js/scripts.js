@@ -9,6 +9,8 @@ function boopNumber(inputNumberString) {
   for (var i = 0; i <= userNumber; i++) {
     if (i === 666) {
       arrayNumbers.push(i + " Hail Satan! " + i + ", ");
+    } else if (String(i).includes("3")){
+      arrayNumbers.push("I'm sorry, Dave. I'm afraid I can't do that. ");
     } else {
       arrayNumbers.push(i + ", ");
     }
