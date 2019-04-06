@@ -24,6 +24,7 @@ function boopNumber(inputNumberString) {
     }
   }
   return arrayNumbers.join("");
+
 }
 
       //  Reverse
@@ -63,7 +64,7 @@ $(function() {
     $("img").hide();
     var inputNumberString = $("#inputNumber").val();
     var output = boopNumber(inputNumberString);
-    $("#output").text(output);
+    $("#output").text(output.slice(0, -2));
   });
 });
       //  Reverse submit
@@ -76,6 +77,6 @@ $(function() {
     var inputNumberString = $("#inputReverseNumber").val();
     console.log(inputNumberString);
     var output = boopReverse(inputNumberString);
-    $("#output").text(output);
+    $("#output").text(output.slice(0, -2));
   });
 });
